@@ -70,7 +70,7 @@
 
         // Attach API
 
-        fetch('Timed-Quiz/data.json')
+        fetch('data.json')
         .then(function (response){
             return response.json();
         })
