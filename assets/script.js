@@ -60,7 +60,7 @@
             }
             $('#main').hide();
 
-            $('marks').text(marks);
+            $('#marks').text(marks);
             $('#correct-answer').text(marks / 5);
             $('#correct-answer').text((marks / 25)* 100 + "%");
 
